@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Нәзік көгілдір */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: #f5f5f5; /* Жақтаудың жұмсақ түсі */
+    border: 2px solid #90caf9; /* Нәзік көгілдір бордер */
+    border-radius: 15px; /* Жұмсақ бұрыштар */
+    box-shadow: 0 4px 15px rgba(95, 142, 243, 0.587); /* Көлеңке */
+    width: 90%;
+    max-width: 350px; /* Максимум ені */
+    padding: 40px;
+    text-align: center;
+}
+h1 {
+    color: #1565c0;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 300px;
+    transition: all 0.9s ease;
+
+}
+button {
+    font-size: 18px;
+
+    padding: 20px; /* Биіктігін ұлғайттық */
+    border: none;
+    border-radius: 10px;
+    background-color: #71bffe; /* Кнопканың жаңа түсі */
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    padding-right: 20px;
+    transition: all 0.3s ease;
+    
+}
+button:hover {
+    background-color: #008cff; /* Hover түсі */
+}
+button:active {
+    background-color: #0088ff;
+}
+button span {
+    font-size: 16px;
+    font-weight: bold;
+    background: white;
+    color: #2191ed;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
